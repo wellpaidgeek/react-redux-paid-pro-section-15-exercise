@@ -3,7 +3,8 @@ import { put, call, select } from 'redux-saga/effects';
 import { takeLatest } from 'redux-saga';
 import { SEARCH_PERFORMED, searchSuccess, searchError } from '../actions/search';
 
-const apiKey = '905ee2e802364f25829caca102b38b73';
+throw new Error('Add your giphy api key below and delete this');
+const apiKey = 'Add your giphy api key here';
 
 const selectSearchState = (state) => state.search;
 
